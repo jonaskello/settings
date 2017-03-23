@@ -1,0 +1,42 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+insert",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus && filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+r ctrl+r",
+        "command": "renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "shift+alt+f12",
+        "command": "editor.action.referenceSearch.trigger",
+        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "shift+alt+l",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+shift+t",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.terminal.toggleTerminal"
+    }
+]
